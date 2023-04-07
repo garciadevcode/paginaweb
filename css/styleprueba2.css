@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
+@media (max-width:768px){
+    
+}
+
+
+/* DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP */
+
+@media (min-width:600px){
+
+    header .logo img {
+        height: 50px;
+        width: auto;
+        cursor: pointer;
+    }
+
+    body{
+        background-image: radial-gradient(circle at 3.95% 33.24%, #fff5a4 0, #fff895 5.56%, #fffa87 11.11%, #fffb78 16.67%, #fffc6b 22.22%, #fffc5e 27.78%, #fffb52 33.33%, #edf948 38.89%, #cff640 44.44%, #adf23c 50%, #86ed3d 55.56%, #56e944 61.11%, #00e54f 66.67%, #00e15d 72.22%, #00dd6e 77.78%, #00d980 83.33%, #00d694 88.89%, #00d3a9 94.44%, #00d1bf 100%);
+    }
+    
+    header{ 
+        height: 70px;   
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-areas:     
+        "logo nav nav nav suscribete";
+        
+    }
+
+    .logo{
+        grid-area: logo;  
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+    
+    header .navbar{
+        grid-area: nav;
+    }
+
+    header .suscribete{        
+        height: 30px;
+        width:auto;
+        padding: 5px;
+        border: solid 1px #000;
+        border-radius: 10px;
+        grid-area: suscribete;
+        font-size: 14px;        
+    }
+
+    .header__botton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     
+    header nav li{  
+        list-style: none ;}
+    
+    header nav ul li a{
+        text-decoration: none ;
+        font-size: 25px;
+        font-family: 'Kalam', cursive;}
+    
+    header ul{        
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        height: 100px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
