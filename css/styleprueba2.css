@@ -20,7 +20,8 @@
 
     body{
         background-image: linear-gradient(to right bottom, #8f67bb, #4f7fcf, #0091cd, #009dba, #00a49e, #00a98e, #2cac77, #50ae5c, #65b258, #78b754, #8aba51, #9cbe4f);
-        background-size: cover;      
+        background-size: cover; 
+          
         
     }  
     .nav_links a{
@@ -42,8 +43,7 @@
      header .suscribete{                        
         height: 40px;
         width:120px;
-        padding: 0px;
-        
+        padding: 0px;        
         border: solid 1px #000;
         border-radius: 30px;
         grid-area: suscribete;
@@ -203,6 +203,86 @@
         display: none;
     }
 
+    .contact-info{
+        margin-top: 10px;
+    }
+
+    .contact-info h3{
+        margin-top: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: whitesmoke; 
+        padding: 8px;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .title{
+    font-family: 'Delicious Handrawn', cursive; 
+    color: #fff;
+    font-weight:500 ;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+    text-align: center;
+    }
+
+    .input-container{
+        position: relative;
+        margin: 1rem 0;
+    }
+    
+    .input{
+        width: 100%;
+        outline: none;
+        border: 2px solid #fafafa;
+        background: none;
+        padding: 0.6rem 1.2rem;
+        color: #fff;
+        font-weight: 500;
+        font-size: 0.95rem;
+        letter-spacing: 0.5px;
+        border-radius: 25px;
+        transition: 0.3s;
+    }
+    
+    textarea.input{
+        padding: 0.8rem 1.2rem;
+        min-height: 150px;
+        border-radius: 22px;
+        resize: none;
+        overflow-y: auto;
+    }
+   
+    ::placeholder{
+        color: #fff;
+        font-size: 12px;
+    }
+
+    form{
+        padding: 2.3rem 1.2rem;
+        z-index: 10;
+        overflow: hidden;
+        position: relative;
+      }    
+      
+      .enviar{
+        padding: 0.3rem 1.3rem;
+        background-color: #fff;
+        border: 2px solid #e0dada;
+        font-size: 0.95rem;
+        color: #1abc9c;
+        line-height: 1;
+        border-radius: 25px;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+        margin: 0;
+       
+    }
+    .enviar:hover{
+        background-color: transparent;
+        color: #fff; }
+     
+    
 }
 
 
@@ -221,8 +301,7 @@
     body{
         background-image: linear-gradient(to right bottom, #8f67bb, #4f7fcf, #0091cd, #009dba, #00a49e, #00a98e, #2cac77, #50ae5c, #65b258, #78b754, #8aba51, #9cbe4f);
         background-size: cover;           
-    }    
-    
+    }  
     
     header{ 
         height: 70px;   
@@ -467,13 +546,13 @@ textarea.input{
 }
 
 
-.btn{
+.enviar{
     padding: 0.3rem 1.3rem;
     background-color: #fff;
-    border: 2px solid #d30d0d;
+    border: 2px solid #e0dada;
     font-size: 0.95rem;
     color: #1abc9c;
-    line-height: 4;
+    line-height: 1;
     border-radius: 25px;
     outline: none;
     cursor: pointer;
@@ -481,7 +560,7 @@ textarea.input{
     margin: 0;
    
 }
-.btn:hover{
+.enviar:hover{
     background-color: transparent;
     color: #fff; 
 
