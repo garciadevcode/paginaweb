@@ -43,6 +43,7 @@
         height: 40px;
         width:120px;
         padding: 0px;
+        
         border: solid 1px #000;
         border-radius: 30px;
         grid-area: suscribete;
@@ -52,7 +53,7 @@
         transition: 0.3s;}
 
     .header__botton{
-        padding-top: 20px;
+        
         display: flex;
         justify-content: center;}
 
@@ -89,7 +90,121 @@
     border-radius: 25px;
     margin: 5px;
 }
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.box__footer img {
+    padding: 20px;
+    width: 180px;
+    height: auto;
+}
+.box_footer{
+    display: flex;
+    flex-direction: column;}
+
+.box_footer h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Delicious Handrawn', cursive; 
+    font-size:30px; 
+    margin: 20px;
+
+} 
+
+.footer_pieDePagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer_pieDePagina a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgb(218, 83, 83);
+    font-size: 20px;
+    font-weight:bold;} 
+    
+    
+.Redes_sociales_footer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 0 40px 40px 40px;
+}
+
+.Redes_sociales_footer i{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    
+}
+
+.Redes_sociales_footer i:hover{
+    color: #000;
+    
+}
+.menuCentral_nosotros iframe{
+    width: 99vw;
+    height: 260px;
+    padding: 10px;}
+
+.menuCentral_nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;}
+
+    .imagenes_producto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    .imagenes_producto img {
+        width: 85%;
+        height: 250px;
+        padding-bottom: 10px;
+        border-radius: 25px;
+    }
+
+    .container_parrafo_productos{
+        margin-top:30px ;
+    }
+
+    .parrafo_productos{
+        text-align: justify;
+        font-family: 'Roboto', sans-serif;
+        color: whitesmoke;   
+        padding: 0 10px;     
+    }
+
+    .titulo_productos{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Delicious Handrawn', cursive;     
+        text-decoration:dotted;
+    }
+
+    .redes_sociales_contacto{
+        display: none;
+    }
+
+}
+
 
 
 
@@ -114,9 +229,8 @@
         display: grid;
         grid-template-columns: repeat(5,1fr);
         grid-template-areas:     
-        "logo nav nav nav suscribete";
-        
-    }
+        "logo nav nav nav suscribete";}
+
     .logo{
         grid-area: logo;  
         display: flex;
@@ -124,8 +238,7 @@
         align-items: center; }
     
     header .navbar{
-        grid-area: nav;
-    }
+        grid-area: nav;}
 
     header .suscribete{        
         height: 40px;
@@ -147,19 +260,14 @@
     .header__botton{
         display: flex;
         justify-content: center;
-        align-items: center;
-       
-    }
+        align-items: center;}
 
     .header__botton button{
-        background-color: #0091cd;
-    }
+        background-color: #0091cd;}
     
      
     header nav li{  
-        list-style: none ;
-       
-    }
+        list-style: none ;}
     
     header nav ul li a{
         text-decoration: none ;
@@ -182,10 +290,7 @@
         justify-content:end;
         align-items: center;
         height: 100px;       
-    }
-   
-
-    
+    }   
     .menuCentral  {
         margin: 75px 20px 0px 20px;
     }
@@ -299,15 +404,13 @@
         width: 130px;
         height: 130px;
         top: 130px;
-        right: -40px;
-    }
+        right: -40px;}
 
     .circle.two{
         width: 80px;
         height: 80px;
         top: 10px;
-        right: 30px;
-    }
+        right: 30px;}
 
     .contact-form:before{
         content:"";
@@ -317,8 +420,7 @@
         background-color:#1abc9c;
         transform: rotate(45deg);
         top: 50px;
-        left: -13px;
-    }
+        left: -13px;}
 
   form{
     padding: 2.3rem 2.2rem;
