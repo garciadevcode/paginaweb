@@ -7,9 +7,113 @@
 /* MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
 @media (max-width:768px){
 
+    header .logo img {
+        height: 60px;
+        width: auto;
+        cursor: pointer;    }
+
+        header .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    body{
+        background-image: linear-gradient(to right bottom, #8f67bb, #4f7fcf, #0091cd, #009dba, #00a49e, #00a98e, #2cac77, #50ae5c, #65b258, #78b754, #8aba51, #9cbe4f);
+        background-size: cover;      
+        
+    }  
+
+    .nav_links a{
+        text-decoration: none;
+        color: #ffff;
+        font-size: 22px; 
+        font-family: 'Delicious Handrawn', cursive;     
+        font-weight:bold;  
+        
+
+    }
+
+    .nav_links li{
+        list-style: none;
+        
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+            }
+
+     header .suscribete{  
+                      
+         height: 40px;
+        width:120px;
+        padding: 0px;
+         border: solid 1px #000;
+         border-radius: 30px;
+         grid-area: suscribete;
+         font-size: 22px; 
+         font-family: 'Delicious Handrawn', cursive;     
+         font-weight:bold;  
+         transition: 0.3s;
+         
+            }
+
+    .header__botton{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menuCentral{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+
+.menuCentral_parrafo--justificar{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;      
+    padding: 10px;  
+}
+
+.menuCentral__titulo--centrar{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Delicious Handrawn', cursive; 
+    text-decoration:dotted;
+}
+
+.menuCentral__imagenes{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    margin: 5px;
+
+}
+
+.menuCentral__imagenes img{
+    min-height: 100vh;
+    width: auto;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+}
+
 
     
-}
+
+
+
+
+
+
 
 
 
@@ -26,8 +130,7 @@
 
     body{
         background-image: linear-gradient(to right bottom, #8f67bb, #4f7fcf, #0091cd, #009dba, #00a49e, #00a98e, #2cac77, #50ae5c, #65b258, #78b754, #8aba51, #9cbe4f);
-        background-size: cover;      
-        
+        background-size: cover;           
     }    
     
     header{ 
@@ -51,7 +154,6 @@
     header .suscribete{        
         height: 40px;
         width:120px;
-        padding: 5px;
         border: solid 1px #000;
         border-radius: 30px;
         grid-area: suscribete;
