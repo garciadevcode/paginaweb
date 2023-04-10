@@ -21,9 +21,14 @@
     body{
         background-image: linear-gradient(to right bottom, #8f67bb, #4f7fcf, #0091cd, #009dba, #00a49e, #00a98e, #2cac77, #50ae5c, #65b258, #78b754, #8aba51, #9cbe4f);
         background-size: cover; 
-          
+    
         
-    }  
+        
+    } 
+    
+    .navbar ul {
+        padding-left: 0;
+    }
     .nav_links a{
         text-decoration: none;
         color: #ffff;
@@ -32,6 +37,7 @@
         font-weight:bold;}
 
     .nav_links li{
+        text-align: center;
         list-style: none;}
 
     .navbar{
