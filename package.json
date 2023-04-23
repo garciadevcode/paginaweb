@@ -1,0 +1,19 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "Esta sera una pagina WEB de prueba para la clase de CODER HOUSE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manitaskym1209/paginaweb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manitaskym1209/paginaweb/issues"
+  },
+  "homepage": "https://github.com/manitaskym1209/paginaweb#readme"
+}
