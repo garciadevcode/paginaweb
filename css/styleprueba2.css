@@ -41,6 +41,7 @@
   }
   header .navbar {
     grid-area: nav;
+    justify-content: end;
   }
   header .suscribete {
     height: 40px;
@@ -85,7 +86,7 @@
   }
   header ul {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     height: 100px;
   }
@@ -163,8 +164,8 @@
     background-size: cover;
     overflow: hidden;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
   }
   .form {
     width: 100%;
@@ -315,10 +316,10 @@
   .imagenes_producto {
     margin-top: 30px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-content: space-between;
   }
   .imagenes_producto img {
     width: 300px;
@@ -372,9 +373,9 @@
   }
   .navbar {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   header .suscribete {
     height: 40px;
@@ -424,9 +425,9 @@
   }
   .box__footer {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   .box__footer img {
     padding: 20px;
@@ -447,8 +448,8 @@
   }
   .footer_pieDePagina {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
     align-items: center;
   }
   .footer_pieDePagina a {
@@ -481,16 +482,16 @@
   }
   .menuCentral_nosotros {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-top: 20px;
   }
   .imagenes_producto {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   .imagenes_producto img {
     width: 85%;

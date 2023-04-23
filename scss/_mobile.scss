@@ -8,9 +8,7 @@
         cursor: pointer;}
 
     header .logo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex-centrar;
         }
 
     body{
@@ -32,10 +30,9 @@
         list-style: none;}
 
     .navbar{
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items: center;}
+        
+        @include flex-centrar;
+        flex-direction: column;}
 
      header .suscribete{                        
         height: 40px;
@@ -89,10 +86,8 @@
 }
 
 .box__footer{
-    display: flex;
+    @include flex-centrar;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
 }
 
@@ -116,9 +111,7 @@
 } 
 
 .footer_pieDePagina{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex-centrar;
     align-items: center;
 }
 
@@ -157,20 +150,14 @@
     padding: 10px;}
 
 .menuCentral_nosotros{
-    display: flex;
+    @include flex-centrar;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-top: 20px;}
 
     .imagenes_producto{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-
-    }
+        @include flex-centrar;
+         flex-direction: column;
+            }
     .imagenes_producto img {
         width: 85%;
         height: 250px;
