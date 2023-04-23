@@ -3,16 +3,21 @@
   --primera-fuente: "Delicious Handrawn", cursive;
   --segunda-fuente:"Roboto", sans-serif;
   --tercera-fuente: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --vista-desktop:desktop;
+  --vista-mobile:mobile;
+}
+
+:root {
+  --color-principal: #4a44cd, #195cd6, #006fd8, #0080d6, #008ed0, #0094c7, #0099bc, #1b9daf, #299b9c, #3d978a, #4f9378, #608e68;
+  --primera-fuente: "Delicious Handrawn", cursive;
+  --segunda-fuente:"Roboto", sans-serif;
+  --tercera-fuente: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --vista-desktop:desktop;
+  --vista-mobile:mobile;
 }
 
 /* DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP */
 @media (min-width: 600px) {
-  :root {
-    --color-principal: #4a44cd, #195cd6, #006fd8, #0080d6, #008ed0, #0094c7, #0099bc, #1b9daf, #299b9c, #3d978a, #4f9378, #608e68;
-    --primera-fuente: "Delicious Handrawn", cursive;
-    --segunda-fuente:"Roboto", sans-serif;
-    --tercera-fuente: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
   header .logo img {
     height: 100px;
     width: auto;
@@ -327,14 +332,17 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-principal: #4a44cd, #195cd6, #006fd8, #0080d6, #008ed0, #0094c7, #0099bc, #1b9daf, #299b9c, #3d978a, #4f9378, #608e68;
+  --primera-fuente: "Delicious Handrawn", cursive;
+  --segunda-fuente:"Roboto", sans-serif;
+  --tercera-fuente: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --vista-desktop:desktop;
+  --vista-mobile:mobile;
+}
+
 /* MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
 @media (max-width: 768px) {
-  :root {
-    --color-principal: #4a44cd, #195cd6, #006fd8, #0080d6, #008ed0, #0094c7, #0099bc, #1b9daf, #299b9c, #3d978a, #4f9378, #608e68;
-    --primera-fuente: "Delicious Handrawn", cursive;
-    --segunda-fuente:"Roboto", sans-serif;
-    --tercera-fuente: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
   header .logo img {
     height: 60px;
     width: auto;

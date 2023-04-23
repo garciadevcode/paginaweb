@@ -1,10 +1,9 @@
-
+@import "variables";  
 
 /* DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP DESKTOP */
+@if var(--vista-desktop=desktop){
 
-@media (min-width:600px){
-
-    @import "variables";    
+@media (min-width:600px){ 
 
     header .logo img {
         height: 100px;
@@ -348,7 +347,5 @@ textarea.input{
     height: 200px;
     border-radius: 20px;
 }
-
-
-
+}
 }

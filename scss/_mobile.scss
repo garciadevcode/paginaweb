@@ -1,8 +1,7 @@
+@import "variables";
+@if var(--vista-desktop=desktop){
 /* MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
 @media (max-width:768px){
-
-    @import "variables";
-
     header .logo img {
         height: 60px;
         width: auto;
@@ -283,3 +282,4 @@
 }
 
 
+}
