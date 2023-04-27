@@ -157,7 +157,8 @@
     .imagenes_producto{
         @include flex-centrar;
          flex-direction: column;
-            }
+        
+        }
     .imagenes_producto img {
         width: 85%;
         height: 250px;

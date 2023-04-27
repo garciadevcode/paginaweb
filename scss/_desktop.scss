@@ -87,14 +87,14 @@
         }
         10% {
             animation-delay:2s;
-            scale: 1.1;           
+
             
+            scale: 1.1;             
         }
 
         20% {
             animation-delay:2s;
-            scale: 1.2;           
-            
+            scale: 1.2;             
         }
 
         30% {
@@ -109,8 +109,7 @@
 
         50% {
             animation-delay:2s;
-            scale: 1.4;              
-        }
+            scale: 1.4;         }
 
         
         60% {
@@ -140,10 +139,7 @@
         100% {
             animation-delay:2s;
             scale: 1;              
-        }
-
-
-      }
+        }}
     
 
     .suscribete:hover{
