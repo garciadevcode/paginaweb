@@ -10,15 +10,9 @@
     header .logo img {
         height: 100px;
         width: auto;
-        cursor: pointer;  
-        
-       
-         
+        cursor: pointer;          
     }   
     
- 
-
-
     body{
         background-image: linear-gradient(to left bottom, var(--color-principal));
         background-size: cover;           
@@ -33,6 +27,7 @@
 
     .logo{
         grid-area: logo;  
+
         @include flex-centrar;
         position: relative; 
         animation-name: example;
